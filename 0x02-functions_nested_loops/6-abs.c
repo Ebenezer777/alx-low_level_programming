@@ -2,7 +2,7 @@
 
 /**
  * _abs - Computes the absoulte value of an integer.
- * @C: The number to be computed.
+ * @c: The number to be computed.
  * Return: Absolute the value of number or zero
  */
 
