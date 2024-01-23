@@ -8,22 +8,15 @@
  * @age: age to initialize
  * @owner: owner to initializes
  *
- * Desc: first struct with alx
+ * Description: first struct with alx
  */
 
-/**
- * dog_t - new name for struct dog
- */
-
-typedef struct dog dog_t;
-
-
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-}
+} dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
