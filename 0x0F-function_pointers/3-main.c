@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int (*oprt)(int,int);
+	int (*oprt)(int, int);
 
 	if (argc != 4)
 	{
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	if (!oprt)
 	{
 		printf("Error\n");
-		exit (99);
+		exit(99);
 	}
 	printf("%d\n", oprt(atoi(argv[1]), atoi(argv[3])));
 	return (0);
