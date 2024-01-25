@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - prints the opcodes of itself
- * @argc: the number of arguments supplied to the program
- * @argv: an array of pointers to the arguments
+ * main - Prints the opcodes of itself
+ * @argc: The number of arguments supplied to the program
+ * @argv: An array of pointers to the arguments
  *
  * Return: Always 0
  */
@@ -31,11 +31,11 @@ int main(int argc, char *argv[])
 	for (index = 0; index < bytes; index++)
 	{
 		opcode = *(unsigned char *)address;
-		printf("%.2x", opcode);
+		printf("%.2x",opcode);
 
 		if (index == bytes - 1)
 			continue;
-		printf(::);
+		printf(" ");
 
 		address++;
 	}
